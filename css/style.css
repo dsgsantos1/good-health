@@ -1,0 +1,21 @@
+.espacotop {
+    padding: 150px 0 50px 0;
+
+}
+#teste{
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.estiloTitulo{
+    font-weight: 400;
+}
+.estiloTexto{
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+/* linkagem do slider */
+.linkSlider:link    { text-decoration: none; }
+.linkSlider:hover   { text-decoration: none; }
+.linkSlider:active  { text-decoration: none; }

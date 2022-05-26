@@ -1,0 +1,51 @@
+<html>
+<!--animação colocada na pagina: lugares -->
+<head>
+    <title>Typewriter Effect</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        body {
+            background-color: #2ca32c;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+        }
+
+        h1 {
+            
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typewriter 0.4s steps(70) none alternate,
+                blink 800ms steps(70) none normal;
+            border-right: 5px;
+        }
+
+        @keyframes typewriter {
+            from {
+                margin-left: 100%;
+            }
+
+            to {
+                margin-left: 0%;
+            }
+        }
+
+        @keyframes blink {
+            from {
+                border-color: black;
+            }
+
+            to {
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>Lugares</h1>
+</body>
+
+</html>
